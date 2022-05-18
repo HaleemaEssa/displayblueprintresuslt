@@ -1,0 +1,12 @@
+cfy blueprints upload blue_10_1.tar.gz -n blueprint.yaml -b myblueprint
+Uploading blueprint blue_10_1.tar.gz...
+ blue_10_1.tar.gz |####################################################| 100.0%
+Blueprint `myblueprint` upload started.
+  CFY <None> Starting 'upload_blueprint' workflow execution
+  LOG <None> INFO: Blueprint archive uploaded. Extracting...
+  LOG <None> INFO: Blueprint archive extracted. Parsing...
+  LOG <None> INFO: Blueprint parsed. Updating DB with blueprint plan.
+  LOG <None> WARNING: Node 'App-RPi' contains multiple relationships with the same target. Only the last of these will have its interface operations  executed.
+  LOG <None> WARNING: Node 'finalBlock' contains multiple relationships with the same target. Only the last of these will have its interface operations executed.
+  CFY <None> 'upload_blueprint' workflow execution succeeded
+Blueprint uploaded. The blueprint's id is myblueprint
