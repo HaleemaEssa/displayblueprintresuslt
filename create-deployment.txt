@@ -1,0 +1,3 @@
+cfy deployments create -b myblueprint
+Creating new deployment from blueprint myblueprint...
+Deployment `myblueprint` created. The deployment's id is myblueprint
